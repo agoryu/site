@@ -1,0 +1,45 @@
+@media screen and (max-width: 990px) {
+
+  .navElement {
+    margin-top: 1%;
+    padding: 0%;
+    margin-right: 8%;
+  }
+
+  .linkPicture {
+    width: 10%;
+    display: block;
+    float: left;
+    margin-right: 3%;
+  }
+
+  .linkPicture:hover {
+    width: 15%;
+  }
+
+  div#titre {
+    margin-top: 5%;
+  }
+
+  #elliot {
+    margin-top: 5%;
+    width: 20%;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  #elliot {
+    display: none;
+  }
+
+  .linkPicture {
+    width: 12%;
+  }
+
+  .navElement {
+    padding: 0%;
+    margin-right: 10%;
+  }
+}

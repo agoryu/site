@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'titre';
+    src: url('../font/PoetsenOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'texte';
+    src: url('../font/Multicolore.otf');
+}
+
+
+/*********** grande section *************/
+body {
+  /* aspect */
+  background-color: #dfdfe8;
+}
+
+div#titre {
+  /* aspect */
+  background-color: rgb(40, 75, 200);
+  color: white;
+  border-radius: 20px;
+  font-family: 'titre';
+
+  /* positionnement contenu */
+  text-align: center;
+
+  /* positionnement balise */
+  margin-top: 2%;
+
+}
+
+section {
+
+  /* aspect texte */
+  font-family: Arial;
+
+  /* aspect */
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: justify;
+  font-size: 20px;
+  border-radius: 20px;
+
+  /* taille */
+  padding: 2%;
+  margin: 2%;
+
+}
+
+nav {
+  /* apparence */
+  font-family: 'titre';
+
+  margin-top: 5%;
+}
+
+aside {
+  margin-left: 6%;
+}
+
+/********** detail ***************/
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1%;
+}
+
+ul {
+  /* aspect */
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/******* class *********/
+.navElement {
+
+  /* aspect */
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  text-align: center;
+
+  /* position balise */
+  /*display: inline-block;*/
+  margin-top: 25%;
+  padding: 5%;
+}
+
+.linkElement {
+  margin-top: 5%;
+}
+
+.linkPicture {
+  width: 40%;
+}
+
+.linkPicture:hover {
+  width: 50%;
+  border-radius: 50px;
+  box-shadow: 10px 10px 4px 4px rgba(0,0,0,0.5);
+}
+
+/******** id ***********/
+#accueil {
+  background-color: rgb(220, 75, 40);
+}
+
+#competence {
+  background-color: rgb(220, 220, 40);
+}
+
+#outils {
+  background-color: rgb(40, 220, 75);
+}
+
+#elliot {
+  width: 12%;
+  margin-left: 3%;
+  display: inline-block;
+}
+
+#competences {
+  /*padding: 4%;*/
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+#tmp {
+  padding-bottom: 40%;
+}
