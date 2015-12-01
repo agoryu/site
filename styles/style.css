@@ -3,11 +3,6 @@
     src: url('../font/PoetsenOne-Regular.ttf');
 }
 
-@font-face {
-    font-family: 'texte';
-    src: url('../font/Multicolore.otf');
-}
-
 
 /*********** grande section *************/
 body {
@@ -42,7 +37,7 @@ section {
   border-radius: 20px;
 
   /* taille */
-  padding: 2%;
+  /*padding: 10px;*/
   margin: 2%;
 
 }
@@ -55,12 +50,13 @@ nav {
 }
 
 aside {
+  margin-top: 2%;
   margin-left: 6%;
 }
 
 /********** detail ***************/
 table {
-    border-collapse: collapse;
+    /*border-radius: 10px;*/
 }
 
 td {
@@ -76,6 +72,10 @@ ul {
 a {
   text-decoration: none;
   color: white;
+}
+
+h2 {
+  text-align: center;
 }
 
 /******* class *********/
@@ -104,7 +104,7 @@ a {
 
 .linkPicture:hover {
   width: 50%;
-  border-radius: 50px;
+  border-radius: 70px;
   box-shadow: 10px 10px 4px 4px rgba(0,0,0,0.5);
 }
 
@@ -135,4 +135,8 @@ a {
 
 #tmp {
   padding-bottom: 40%;
+}
+
+#intro {
+  padding: 5%;
 }

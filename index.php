@@ -25,7 +25,7 @@
         <?php include("navigateur.php") ?>
 
         <section class="col-lg-offset-1 col-lg-6">
-          <p>
+          <p id="intro">
             <!--Je suis actuellement étudiant en master 2 à l'université de Lille 1 en informatique,
             spécialisé dans l'image, la vision et l'interaction. J'ai obtenu un DUT
             en informatique de gestion en 2013 à l'IUT A de Lille 1.-->
@@ -38,7 +38,7 @@
 
           <h2> Experience professionnelle </h2>
 
-          <table>
+          <table class="table table-striped">
             <tr>
               <td>Année</td>
               <td>Lieux</td>
@@ -68,7 +68,7 @@
         </section>
 
         <?php include("liens.php") ?>
-        
+
       </div>
     </body>
 
