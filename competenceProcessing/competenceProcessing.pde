@@ -102,6 +102,6 @@ class Ball {
     fill(this.col);
     ellipse(x, y, diameter, diameter);
     fill(255);
-    text(name, x-(diameter/4)-2, y);
+    text(name, (x - diameter/2) + (diameter - textWidth(name))/2, y);
   }
 }
