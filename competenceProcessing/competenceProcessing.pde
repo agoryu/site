@@ -11,7 +11,7 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  background(0);
   for (Ball ball : balls) {
     ball.collide();
     ball.move();
@@ -25,9 +25,10 @@ void readData() {
 
   for(int i=0; i<numBalls; i++) {
     String[] columns = split(lines[i], ";");
-    float valColor1 = random(0, 200);
-    float valColor2 = random(0, 200);
-    float valColor3 = random(0, 200);
+    float valColor1 = random(0, 255);
+    float valColor2 = 255;//random(0, 200);
+    float valColor3 = 200;//random(0, 200);
+    colorMode(HSB, 255, 255, 255);
     balls[i] = new Ball(random(width), random(height), int(columns[1]), i, balls,
     color(valColor1, valColor2, valColor3), columns[0]);
   }
