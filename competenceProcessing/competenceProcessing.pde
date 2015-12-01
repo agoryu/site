@@ -4,7 +4,7 @@ float friction = -0.6;
 Ball[] balls = new Ball[numBalls];
 
 void setup() {
-  size(700, 500);
+  size(900, 600);
   readData();
   noStroke();
   fill(255, 204);
