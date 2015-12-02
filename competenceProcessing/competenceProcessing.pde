@@ -101,6 +101,8 @@ class Ball {
 
   void drawBall() {
     fill(this.col);
+    stroke(255);
+    strokeWeight(7);
     ellipse(x, y, diameter, diameter);
     fill(255);
     text(name, (x - diameter/2) + (diameter - textWidth(name))/2, y);
