@@ -3,6 +3,11 @@
     src: url('../font/PoetsenOne-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'citation';
+    src: url('../font/Florence-Regular.ttf');
+}
+
 
 /*********** grande section *************/
 body {
@@ -37,7 +42,6 @@ section {
   border-radius: 20px;
 
   /* taille */
-  /*padding: 10px;*/
   margin: 2%;
 
 }
@@ -55,10 +59,6 @@ aside {
 }
 
 /********** detail ***************/
-table {
-    /*border-radius: 10px;*/
-}
-
 td {
     border: 1px solid black;
     padding: 1%;
@@ -89,9 +89,11 @@ h2 {
   text-align: center;
 
   /* position balise */
-  /*display: inline-block;*/
   margin-top: 25%;
-  padding: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  background-attachment: scroll;
 }
 
 .linkElement {
@@ -108,6 +110,14 @@ h2 {
   box-shadow: 10px 10px 4px 4px rgba(0,0,0,0.5);
 }
 
+.organisation {
+  color: black;
+}
+
+.activite {
+  list-style-type: circle;
+}
+
 /******** id ***********/
 #elliot {
   width: 12%;
@@ -116,7 +126,6 @@ h2 {
 }
 
 #competences {
-  /*padding: 4%;*/
   margin-left: 8%;
   margin-top: 2%;
 }
@@ -125,6 +134,18 @@ h2 {
   padding-bottom: 70%;
 }
 
-#intro {
-  padding: 5%;
+#pied {
+  text-align: center;
+}
+
+#citation {
+  text-align: center;
+  font-family: 'citation';
+  font-style: italic;
+  font-weight: bold;
+}
+
+#authorCitation {
+  text-align: center;
+  font-style: italic;
 }

@@ -31,5 +31,7 @@
 
         <?php include("liens.php") ?>
       </div>
+
+      <?php include("pied.php") ?>
     </body>
 </html>

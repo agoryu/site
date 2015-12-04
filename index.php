@@ -25,16 +25,19 @@
         <?php include("navigateur.php") ?>
 
         <section class="col-lg-offset-1 col-lg-6">
-          <p id="intro">
-            <!--Je suis actuellement étudiant en master 2 à l'université de Lille 1 en informatique,
-            spécialisé dans l'image, la vision et l'interaction. J'ai obtenu un DUT
-            en informatique de gestion en 2013 à l'IUT A de Lille 1.-->
+
+        </br><p id="citation"> "Science sans conscience n'est que ruine de l'âme" </p>
+        <p id="authorCitation">François Rabelais</p></br>
+
+          <h2> Présentation </h2>
+          <p>
             Je suis actuellement étudiant en master 2 à l'université de Lille 1 en informatique,
             spécialisé dans l'image, la vision et l'interaction. Je m'intéresse particulièrement
             aux traitements d'image et aux images 3D. Ma première ambition était de partir dans
             le monde du jeux vidéo. Puis, le traitement d'image 3D et ses applications m'ont beaucoup
             plu, c'est pourquoi j'aimerais continuer à étudier ce sujet lors d'une thèse.
           </p>
+          </br>
 
           <h2> Experience professionnelle </h2>
 
@@ -46,25 +49,32 @@
             </tr>
             <tr>
               <td>Octobre 2015 - Février 2016</td>
-              <td>3D Sam</td>
+              <td><a href="http://www.cristal.univ-lille.fr/?rubrique27&eid=33" class="organisation">3D Sam</a></td>
               <td>Détection, suivi et animation de la main dans une scène 3D</td>
             </tr>
             <tr>
               <td>Janvier - Avril 2015</td>
-              <td>Fox</td>
+              <td><a href="http://www.cristal.univ-lille.fr/?rubrique27&eid=34" class="organisation">Fox</a></td>
               <td>Localisation du centre de l'oeil dans le visage</td>
             </tr>
             <tr>
               <td>Avril - Aout 2014</td>
-              <td>Gfi</td>
+              <td><a href="http://www.gfi.fr/" class="organisation">Gfi</a></td>
               <td>Développeur Java/JEE</td>
             </tr>
             <tr>
               <td>Avril - Juillet 2013</td>
-              <td>INSERM u703</td>
+              <td><a href="http://www.gfi.fr/" class="organisation">INSERM u703</a></td>
               <td>Interface logicielle entre DCMTK et la plateforme de l'unité</td>
             </tr>
           </table>
+          </br>
+          <h2> Activité personnelle </h2>
+          <ul class="activite">
+            <li> Un peu de concentration et de précision avec le tir à l'arc </li>
+            <li> Je m'intéresse à tout et ne demande qu'à découvrir </li>
+            <li> J'apprécie beaucoup les jeux vidéo particulièrement le retro gaming </li>
+          </ul>
         </section>
 
         <?php include("liens.php") ?>
