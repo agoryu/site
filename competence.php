@@ -24,7 +24,7 @@
 
         <?php include("navigateur.php") ?>
 
-        <div class="col-lg-offset-1 col-lg-6" id="competences">
+        <div class="col-lg-offset-1 col-lg-7" id="competences">
           <script src="script/processing.js"></script>
           <canvas data-processing-sources="competenceProcessing/competenceProcessing.pde"></canvas>
         </div>

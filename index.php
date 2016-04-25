@@ -24,10 +24,10 @@
 
         <?php include("navigateur.php") ?>
 
-        <section class="col-lg-offset-1 col-lg-6">
+        <section class="col-lg-offset-1 col-lg-7">
 
-        </br><p id="citation"> "Science sans conscience n'est que ruine de l'âme" </p>
-        <p id="authorCitation">François Rabelais</p></br>
+        <!--</br><p id="citation"> "Science sans conscience n'est que ruine de l'âme" </p>
+        <p id="authorCitation">François Rabelais</p></br>-->
 
           <h2> Présentation </h2>
           <p>
@@ -69,7 +69,7 @@
             </tr>
           </table>
           </br>
-          <h2> Activité personnelle </h2>
+          <h2> Activités personnelles </h2>
           <ul class="activite">
             <li> Un peu de concentration et de précision avec le tir à l'arc </li>
             <li> Je m'intéresse à tout et ne demande qu'à découvrir </li>

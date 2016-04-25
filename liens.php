@@ -1,4 +1,4 @@
-<aside class="col-lg-2">
+<aside class="col-lg-1">
   <ul>
     <li class="linkElement"><a href="https://fr-fr.facebook.com/elliot.vanegue"><img src="images/facebook.png" class="linkPicture"/></a></li>
     <li class="linkElement"><a href="https://twitter.com/agoryu15"><img src="images/twitter.png" class="linkPicture"/></a></li>

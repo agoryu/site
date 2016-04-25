@@ -55,7 +55,7 @@ nav {
 
 aside {
   margin-top: 2%;
-  margin-left: 6%;
+  margin-left: 2%;
 }
 
 /********** detail ***************/
@@ -101,11 +101,11 @@ h2 {
 }
 
 .linkPicture {
-  width: 40%;
+  width: 130%;
 }
 
 .linkPicture:hover {
-  width: 50%;
+  width: 150%;
   border-radius: 70px;
   box-shadow: 10px 10px 4px 4px rgba(0,0,0,0.5);
 }
