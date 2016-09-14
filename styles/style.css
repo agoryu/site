@@ -12,7 +12,9 @@
 /*********** grande section *************/
 body {
   /* aspect */
-  background-color: #dfdfe8;
+  /*background-color: #dfdfe8;*/
+  background-color: #252830;
+  color: white;
 }
 
 div#titre {
@@ -36,13 +38,13 @@ section {
   font-family: Arial;
 
   /* aspect */
-  background-color: rgba(255, 255, 255, 0.8);
+  /*background-color: rgba(255, 255, 255, 0.8);*/
   text-align: justify;
   font-size: 20px;
   border-radius: 20px;
 
   /* taille */
-  margin: 2%;
+  margin: 4%;
 
 }
 
@@ -60,8 +62,9 @@ aside {
 
 /********** detail ***************/
 td {
-    border: 1px solid black;
-    padding: 1%;
+    /*border: 1px solid black;*/
+    padding: 6%;
+    text-align: center;
 }
 
 ul {
@@ -76,6 +79,7 @@ a {
 
 h2 {
   text-align: center;
+  font-weight: bold;
 }
 
 /******* class *********/
@@ -110,12 +114,15 @@ h2 {
   box-shadow: 10px 10px 4px 4px rgba(0,0,0,0.5);
 }
 
-.organisation {
-  color: black;
-}
-
 .activite {
   list-style-type: circle;
+  margin-left: 20%;
+}
+
+.competence {
+  font-family: "Arial Black";
+  font-weight: bold;
+  font-size: 125%;
 }
 
 /******** id ***********/
@@ -123,11 +130,6 @@ h2 {
   width: 12%;
   margin-left: 3%;
   display: inline-block;
-}
-
-#competences {
-  margin-left: 8%;
-  margin-top: 2%;
 }
 
 #tmp {

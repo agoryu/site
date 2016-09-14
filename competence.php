@@ -24,11 +24,42 @@
 
         <?php include("navigateur.php") ?>
 
-        <div class="col-lg-offset-1 col-lg-7" id="competences">
-          <script src="script/processing.js"></script>
-          <canvas data-processing-sources="competenceProcessing/competenceProcessing.pde"></canvas>
-        </div>
+        <section class="col-lg-offset-1 col-lg-7">
+          <div class="table-responsive">
+            <table>
+              <tr>
+                <td class="col-lg-2"> Langages </td>
+                <td class="col-lg-2 competence" style="background-color : rgb(0, 119, 185)"><a href="http://www.oracle.com/technetwork/java/index.html"> Java/J2EE </a></td>
+                <td class="col-lg-2 competence" style="background-color : rgb(102, 154, 211)"><a href="https://isocpp.org/"> C/C++ </a></td>
+              </tr>
 
+              <tr>
+                <td class="col-lg-2"> Bibliothèques </td>
+                <td class="col-lg-2 competence" style="background-color : rgb(0, 200, 0)"><a href="http://opencv.org/"> openCV </a></td>
+                <td class="col-lg-2 competence" style="background-color : rgb(67, 121, 56)"><a href="http://pointclouds.org/"> PCL </a></td>
+                <td class="col-lg-2 competence" style="background-color : rgb(103, 137, 165)"><a href="https://www.opengl.org/"> openGL </a></td>
+              </tr>
+
+              <tr>
+                <td class="col-lg-2"> 3D </td>
+                <td class="col-lg-2 competence" style="background-color : rgb(233, 30, 99)"><a href="https://unity3d.com/"> Unity3D </a></td>
+              </tr>
+
+              <tr>
+                <td class="col-lg-2"> EDI </td>
+                <td class="col-lg-2 competence" style="background-color : rgb(44, 34, 85)"><a href="http://www.eclipse.org/home/index.php"> Eclipse </a></td>
+                <td class="col-lg-2 competence" style="background-color : rgb(103, 32, 121)"><a href="https://www.visualstudio.com/"> Visual studio </a></td>
+                <td class="col-lg-2 competence" style="background-color : rgb(125, 125, 125)"><a href="http://www.codeblocks.org/"> Code::block </a></td>
+              </tr>
+
+              <tr>
+                <td class="col-lg-2"> Autre </td>
+                <td class="col-lg-2 competence" style="background-color : rgb(0, 128, 128)"><a href="http://www.latex-project.org/"> Latex </a></td>
+              </tr>
+            </table>
+          </div>
+
+        </section>
         <?php include("liens.php") ?>
       </div>
 
