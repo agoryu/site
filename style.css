@@ -1,0 +1,144 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+body {
+  /* Margin bottom by footer height */
+  background-color: #333;
+  font-size: 150%;
+}
+
+h3 {
+  padding-top: 5%;
+  color: rgb(100, 150, 180);
+  text-align: center;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  /*padding: 60px 15px 0;*/
+  padding-top: 3%; /* IMPORTANT */
+  left: 30%; /* IMPORTANT */
+  display: block;
+  width: 40%;
+}
+
+body > .container-article {
+  width: 50%;
+  left: 25%;
+}
+
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-left: 25%;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+.footer > .container > a {
+  padding-left: 5%;
+  color: white;
+  text-decoration: none;
+}
+
+.footer > .container > a:hover {
+  color: red;
+}
+
+td {
+  color: white;
+}
+
+#socialNetwork {
+  padding-left: 70% !important;
+}
+
+#socialNetwork > li {
+  display: inline-block;
+}
+#socialNetwork > li + li {
+  margin-left: 10%;
+}
+
+#title {
+  color: rgb(180, 100, 100);
+}
+
+#copyleft {
+  width: 3%;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: rgb(100, 150, 180);
+}
+
+.selected {
+  border-bottom-color: rgb(100, 150, 180);
+  border-bottom-style: solid;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
+.transparent {
+  background-color: transparent;
+  border-style: none;
+}
+
+.page-header {
+  color: rgb(100, 180, 100);
+  border-style: none;
+  text-align: center;
+}
+
+.lead {
+  color: white;
+}
+
+#articles {
+  color: white;
+  text-decoration: none;
+}
+
+.article {
+  color: white;
+  font-size: 130%;
+}
+
+@media (max-width: 640px) {
+  #title {
+    position: relative;
+  }
+
+  .collapse {
+    display: block !important;
+  }
+
+  #socialNetwork > li + li {
+    margin-left: 15%;
+  }
+
+  #socialNetwork {
+      padding-left: 10% !important;
+  }
+
+  .container {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 800px) {
+  #socialNetwork {
+      padding-left: 10% !important;
+  }
+
+  #socialNetwork > li + li {
+    margin-left: 4%;
+  }
+}
